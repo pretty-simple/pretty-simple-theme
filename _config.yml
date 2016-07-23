@@ -1,24 +1,24 @@
+# TODO: Set up this entire file
 # Site settings
-title: nomcha
-email: tasty@nomcha.com
+title: pretty simple theme
+email: TODO
 description: > # this means to ignore newlines in this block
-   a concise blog of tasty teas.
-url: https://nomcha.com
+   a pretty, simple theme for Jekyll.
+# used for the canonical header and for the RSS link
+url: https://pretty-simple.github.io/pretty-simple-theme # TODO
 
 #removing any of this will omit the relevant HTML
 #to add more SVGs, see: http://codepen.io/ruandre/pen/howFi
-twitter_username: nomcha_blog
-instagram_username: nomcha_blog
+twitter_username: TODO
+instagram_username: TODO
 
-timezone: America/Chicago
+timezone: America/Chicago # TODO
 encoding: utf-8
 
 gems:
      - jekyll-sitemap
+     - jekyll-feed
 
-exclude: [TODO.txt, Gemfile*]
+exclude: [TODO.txt, Gemfile*, README.md]
 permalink:
    /:categories/:title/
-     
-# Build settings
-markdown: redcarpet
