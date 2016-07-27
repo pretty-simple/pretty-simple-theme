@@ -1,4 +1,5 @@
 ADD MY CONTACT EMAIL
+Demonstrate an example image embed, including link to full-size image
 Test canonical URL
 Test a post without a category
 Do a health check: https://github.com/github/pages-health-check 
