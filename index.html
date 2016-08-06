@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">Posts</h1>
   {% for category in site.categories reversed %}
   {% capture catname %}{{ category[0] }}{% endcapture %}
-  <h2 class="category-name">{{ catname }}</h2>
+  <h2 class="category-name">{{ catname | replace: '_', ' ' | capitalize }}</h2>
   {% capture posts_year %}{{ site.categories[catname][0].date | date: '%Y' }}{% endcapture %}
   <span class="post-year">{{ posts_year }}</span>
      <ul class="post-list">
@@ -20,7 +20,7 @@ layout: default
      <ul class="post-list">
      {% endif %}
         {% comment %}
-        Date format explained: 
+        Date format explained:
         https://help.shopify.com/themes/liquid/filters/additional-filters#date
         %b %e is abbreviated month & day
         {% endcomment %}
