@@ -5,7 +5,8 @@ email: TODO
 description: > # this means to ignore newlines in this block
    a pretty, simple theme for Jekyll.
 # used for the canonical header and for the RSS link
-url: https://pretty-simple.github.io/pretty-simple-theme # TODO
+url: https://pretty-simple.github.io # TODO
+baseurl: /pretty-simple-theme # TODO
 
 #removing any of this will omit the relevant HTML
 #to add more SVGs, see: http://codepen.io/ruandre/pen/howFi
